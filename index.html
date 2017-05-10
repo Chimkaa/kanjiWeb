@@ -1,0 +1,951 @@
+<!DOCTYPE html>
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="ie ie9" lang="en"> <![endif]-->
+<html lang="en">
+
+<head>
+  	<meta charset="utf-8">
+    <title>LEARN - Courses, Education site template</title>
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1, user-scalable=no">
+    
+    <!-- Favicons-->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon"/>
+    <link rel="apple-touch-icon" type="image/x-icon" href="img/apple-touch-icon-57x57-precomposed.png">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="img/apple-touch-icon-72x72-precomposed.png">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="114x114" href="img/apple-touch-icon-114x114-precomposed.png">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="144x144" href="img/apple-touch-icon-144x144-precomposed.png">
+    
+    <!-- REVOLUTION BANNER CSS SETTINGS -->
+	<link href="rs-plugin/css/settings.css" media="screen" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/superfish.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="fontello/css/fontello.css" rel="stylesheet">
+       
+    <!--[if lt IE 9]>
+      <script src="http://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="http://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+  </head>
+  
+  <body>
+  <header>
+  	<div class="container">
+	<div class="row">
+		<div class="col-md-3 col-sm-3 col-xs-3">
+			<a href="index.html" id="logo">ТОМ ХАНЗ</a>
+		</div>
+		<div class="col-md-9 col-sm-9 col-xs-9">
+			<div class=" pull-right"><a href="login.html" class="button_top" id="login_top">Нэвтрэх</a></div>
+            <ul id="top_nav" class="hidden-xs">
+                <li><a href="my_profile.html">Миний хуудас</a></li>
+                <li><a href="register.html">Бүртгүүлэх</a></li>
+            </ul>
+		</div>
+	</div>
+</div>
+</header><!-- End header -->
+
+<nav>
+<div class="container">
+	<div class="row">
+		<div class="col-md-12">
+			<div id="mobnav-btn"></div>
+			<ul class="sf-menu"><!-- menu ehlej bna -->
+				
+				<li class="normal_drop_down">
+				<a href="index.html">Нүүр</a>
+				<div class="mobnav-subarrow"></div>
+				</li>
+				
+				<li class="normal_drop_down">
+				<a href="courses_grid.html">ХИЧЭЭЛҮҮД</a>
+				<div class="mobnav-subarrow"></div>
+				</li>
+
+				<li><a href="prices_plans.html">Давтах</a></li>
+
+				<li class="mega_drop_down"><!-- shalgaltiin tovch ehlej bna -->
+				<a href="courses_list.html">шалгалт</a>
+                <div class="mobnav-subarrow"></div>
+                <div class="sf-mega">
+                	<div class="col-md-4 col-sm-6">
+                    	<h5>Анхан түвшний шалгалтууд</h5>
+                            <ul class="mega_submenu">
+                               <li><a href="courses_list.html">Анхан түвшний 80 ханз</a></li>
+							   <li><a href="courses_list.html">Анхан түвшний 160 ханз</a></li>
+                               <li><a href="courses_list.html">Анхан түвшний 200 ханз</a></li>
+                               </ul>
+                    </div>
+                  <div class="col-md-4 col-sm-6">
+                   <h5>Дунд түвшний шалгалтууд</h5>
+                          <ul class="mega_submenu">
+                           	  <li><a href="courses_list.html">Дунд түвшний 200 ханз</a></li>
+                              <li><a href="courses_list.html">Дунд түвшний 185 ханз</a></li>
+                              <li><a href="courses_list.html">Дунд түвшний 181 ханз</a></li>
+                              <li><a href="gallery.html">Photo &amp; video gallery <img src="img/new.png" alt=""></a></li>
+                          </ul>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                    <h5>Дээд түвшний шалгалтууд</h5>
+                            <ul class="mega_submenu icons">
+                            	<li><a href="courses_list.html">Дээд түвшний 360 ханз</a></li>
+								<li><a href="courses_list.html">Дээд түвшний 380 ханз</a></li>
+                                <li><a href="courses_list.html">Дээд түвшний 390 ханз</a></li>
+                            </ul>
+                    </div>
+                </div>
+                </li><!-- shalgaltiin tovch duusaj bna -->
+				<li><a href="contacts.html">Холбоо барих</a></li>
+			</ul><!-- menu duusaj bna -->
+            
+            <div class="col-md-3 pull-right hidden-sm hidden-xs">
+                    <div id="sb-search" class="sb-search">
+						<form>
+							<input class="sb-search-input" placeholder="Хайлт..." type="text" value="" name="search" id="search">
+							<input class="sb-search-submit" type="submit" value="">
+							<span class="sb-icon-search"></span>
+						</form>
+					</div>
+              </div><!-- End search -->
+              
+		</div>
+	</div><!-- End row -->
+</div><!-- End container -->
+</nav>
+	
+    <section class="tp-banner-container">
+		<div class="tp-banner" >
+			<ul class="sliderwrapper">	<!-- SLIDE  -->
+				<li data-transition="fade" data-slotamount="4" data-masterspeed="1500" >
+					<!-- MAIN IMAGE -->
+					<img src="sliderimages/slide_5.jpg" alt="slidebg1"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+					<!-- LAYERS -->
+
+					<!-- LAYER NR. 1 -->
+					<div class="tp-caption skewfromrightshort customout"
+						data-x="center"
+						data-y="center"
+						data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+						data-speed="500"
+						data-start="1200"
+						data-easing="Power4.easeOut"
+						data-endspeed="500"
+						data-endeasing="Power4.easeIn"
+						data-captionhidden="on"
+						style="z-index: 2">
+					</div>
+                    
+                    <!-- LAYER NR. 2 -->
+					<div class="tp-caption medium_bg_darkblue skewfromleft customout"
+						data-x="left"
+						data-y="190"
+                        data-hoffset="30"
+						data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+						data-speed="800"
+						data-start="1500"
+						data-easing="Power4.easeOut"
+						data-endspeed="300"
+						data-endeasing="Power1.easeIn"
+						data-captionhidden="on"
+						style="z-index: 6">2
+					</div>
+
+					<!-- LAYER NR. 3 -->
+					<div class="tp-caption medium_bg_darkblue skewfromleft customout"
+						data-x="left"
+						data-y="245"
+                        data-hoffset="30"
+						data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+						data-speed="800"
+						data-start="1500"
+						data-easing="Power4.easeOut"
+						data-endspeed="300"
+						data-endeasing="Power1.easeIn"
+						data-captionhidden="on"
+						style="z-index: 6">3
+					</div>
+                    
+                    <!-- LAYER NR. 3 -->
+					<div class="tp-caption medium_bg_darkblue skewfromleft customout"
+						data-x="left"
+						data-y="300"
+                        data-hoffset="30"
+						data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+						data-speed="800"
+						data-start="1500"
+						data-easing="Power4.easeOut"
+						data-endspeed="300"
+						data-endeasing="Power1.easeIn"
+						data-captionhidden="on"
+						style="z-index: 6">4
+					</div>
+
+					<!-- LAYER NR. 4 -->
+					<div class="tp-caption medium_bg_darkblue skewfromright customout"
+						data-x="right"
+						data-y="190"
+                        data-hoffset="-30"
+						data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+						data-speed="800"
+						data-start="1800"
+						data-easing="Power4.easeOut"
+						data-endspeed="300"
+						data-endeasing="Power1.easeIn"
+						data-captionhidden="on"
+						style="z-index: 8">5
+					</div>
+
+					<!-- LAYER NR. 5 -->
+					<div class="tp-caption medium_bg_darkblue skewfromright customout"
+						data-x="right"
+						data-y="245"
+                        data-hoffset="-30"
+						data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+						data-speed="800"
+						data-start="1800"
+						data-easing="Power4.easeOut"
+						data-endspeed="300"
+						data-endeasing="Power1.easeIn"
+						data-captionhidden="on"
+						style="z-index: 8">6
+					</div>
+                    
+                    <!-- LAYER NR. 3 -->
+					<div class="tp-caption medium_bg_darkblue skewfromleft customout"
+						data-x="right"
+						data-y="300"
+                        data-hoffset="-30"
+						data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+						data-speed="800"
+						data-start="1800"
+						data-easing="Power4.easeOut"
+						data-endspeed="300"
+						data-endeasing="Power1.easeIn"
+						data-captionhidden="on"
+						style="z-index: 6">7
+					</div>
+				</li>
+                <!-- SLIDE  -->
+				<li data-transition="zoomout" data-slotamount="4" data-masterspeed="1000" >
+					<!-- MAIN IMAGE -->
+					<img src="sliderimages/slide_6.jpg" alt="slidebg2"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+					<!-- LAYERS -->
+
+					<!-- LAYER NR. 1 -->
+					<div class="tp-caption medium_light_white skewfromrightshort customout"
+						data-x="80"
+						data-y="96"
+						data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+						data-speed="500"
+						data-start="800"
+						data-easing="Back.easeOut"
+						data-endspeed="500"
+						data-endeasing="Power4.easeIn"
+						data-captionhidden="on"
+						style="z-index: 4">
+					</div>
+
+					<!-- LAYER NR. 2 -->
+					<div class="tp-caption medium_thin_white skewfromleftshort customout"
+						data-x="235"
+						data-y="110"
+						data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+						data-speed="500"
+						data-start="900"
+						data-easing="Back.easeOut"
+						data-endspeed="500"
+						data-endeasing="Power4.easeIn"
+						data-captionhidden="on"
+						style="z-index: 5">
+					</div>
+
+					<!-- LAYER NR. 3 -->
+					<div class="tp-caption large_bold_white skewfromleftshort customout"
+						data-x="80"
+						data-y="152"
+						data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+						data-speed="300"
+						data-start="1100"
+						data-easing="Back.easeOut"
+						data-endspeed="500"
+						data-endeasing="Power4.easeIn"
+						data-captionhidden="on"
+						style="z-index: 7">
+					</div>
+
+					<!-- LAYER NR. 4 -->
+					<div class="tp-caption small_thin_white  customin customout"
+						data-x="80"
+						data-y="240"
+						data-customin="x:0;y:100;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:3;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:0% 0%;"
+						data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+						data-speed="500"
+						data-start="1300"
+						data-easing="Power4.easeOut"
+						data-endspeed="500"
+						data-endeasing="Power4.easeIn"
+						data-captionhidden="on"
+						style="z-index: 8"><br/> <br/> <br/> 
+					</div>
+				</li>
+                
+                <!-- SLIDE  -->
+				<li data-transition="cube-horizontal" data-slotamount="4" data-masterspeed="1000" >
+					<!-- MAIN IMAGE -->
+					<img src="sliderimages/slide_1.jpg" alt="slidebg3"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+					<!-- LAYERS -->
+
+					<!-- LAYER NR. 1 -->
+					<div class="tp-caption medium_light_white skewfromrightshort customout"
+						data-x="80"
+						data-y="96"
+						data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+						data-speed="500"
+						data-start="800"
+						data-easing="Back.easeOut"
+						data-endspeed="500"
+						data-endeasing="Power4.easeIn"
+						data-captionhidden="on"
+						style="z-index: 4">
+					</div>
+
+					<!-- LAYER NR. 2 -->
+					<div class="tp-caption medium_thin_white skewfromleftshort customout"
+						data-x="235"
+						data-y="110"
+						data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+						data-speed="500"
+						data-start="900"
+						data-easing="Back.easeOut"
+						data-endspeed="500"
+						data-endeasing="Power4.easeIn"
+						data-captionhidden="on"
+						style="z-index: 5">
+					</div>
+
+					<!-- LAYER NR. 3 -->
+					<div class="tp-caption large_bold_white skewfromleftshort customout"
+						data-x="80"
+						data-y="152"
+						data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+						data-speed="300"
+						data-start="1100"
+						data-easing="Back.easeOut"
+						data-endspeed="500"
+						data-endeasing="Power4.easeIn"
+						data-captionhidden="on"
+						style="z-index: 7">
+					</div>
+
+					<!-- LAYER NR. 4 -->
+					<div class="tp-caption small_thin_white  customin customout"
+						data-x="80"
+						data-y="240"
+						data-customin="x:0;y:100;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:3;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:0% 0%;"
+						data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+						data-speed="500"
+						data-start="1300"
+						data-easing="Power4.easeOut"
+						data-endspeed="500"
+						data-endeasing="Power4.easeIn"
+						data-captionhidden="on"
+						style="z-index: 8"><br/> <br/> <br/> 
+					</div>
+				</li>
+                
+                 <!-- SLIDE  -->
+				<li data-transition="zoomin" data-slotamount="4" data-masterspeed="1000" >
+					<!-- MAIN IMAGE -->
+					<img src="sliderimages/slide_7.jpg" alt="slidebg4"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+					<!-- LAYERS -->
+
+					<!-- LAYER NR. 10 -->
+					<div class="tp-caption large_bold_white customin customout"
+						data-x="center" data-hoffset="0"
+						data-y="160"
+						data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
+						data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+						data-speed="1000"
+						data-start="1700"
+						data-easing="Back.easeInOut"
+						data-endspeed="300"
+						style="z-index: 11">
+					</div>
+
+					<!-- LAYER NR. 11 -->
+					<div class="tp-caption mediumlarge_light_white_center customin customout"
+						data-x="center" data-hoffset="0"
+						data-y="bottom" data-voffset="-150"
+						data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
+						data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+						data-speed="1000"
+						data-start="1900"
+						data-easing="Back.easeInOut"
+						data-endspeed="300"
+						style="z-index: 12"><br/>
+			        <br/>
+			
+					</div>
+				</li>
+				
+			</ul>
+			<div class="tp-bannertimer"></div>
+		</div>
+	</section><!-- End slider -->
+    
+    <section id="main-features">
+    <div class="divider_top_black"></div>
+    <div class="container">
+        <div class="row">
+            <div class=" col-md-10 col-md-offset-1 text-center">
+                <h2>
+ТАВТАЙ МОРИЛНО УУ!</h2>
+                <p class="lead">
+                    Япон хэлний ханз үсгийг түргэн хугацаанд сурах , түүнийгээ хэрэглээ болгон тогтоох, цээжлэхэд зориулсан онлайн сургалтын системийг боловсруулан гаргаж байна. 
+                    Иймээс уг website-аар дамжуулан Япон хэлд чин сэтгэлээсээ дур сонирхолтой хүмүүсд энэхүү хэлийг сонирхолтой болон хөгжилтэй байдлаар суралцах үйлсэд туслахыг зорьж байна.
+                    
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="feature">
+                    <i class="icon-trophy"></i>
+                    <h3>Таны мэдлэгийн түвшин</h3>
+                    <p>
+                        
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="feature">
+                    <i class=" icon-ok-4"></i>
+                    <h3>Шалгалт</h3>
+                    <p>
+                        
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="feature">
+                    <i class="icon-mic"></i>
+                    <h3>Aудио хичээлүүд</h3>
+                    <p>
+                        
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="feature">
+                    <i class="icon-video"></i>
+                    <h3>Видео хичээлүүд</h3>
+                    <p>
+                        
+                    </p>
+                </div>
+            </div>
+        </div><!-- End row -->
+        </div><!-- End container-->
+    </section><!-- End main-features -->
+    
+ <section id="main_content">
+        <div class="container">
+        <div class="row add_bottom_30">
+        	<div class="col-md-12 text-center">
+            <h2>Хичээлүүд</h2>
+            <p class="lead">Lorem ipsum dolor sit amet, ius minim gubergren ad.</p>
+            </div>
+        </div>
+        
+        <div class="row"> <!-- ehnii egnee ehlej bgaa -->
+            <div class="col-md-4">
+                <div class="media">
+                   <div class="circ-wrapper blue pull-left"><h3>Анхан<br>80</h3></div>
+                      <div class="media-body">
+                      	<h4 class="media-heading"><a href="javascript:void(0)">Анхан түвшний 80 ханз</a> <span class="label label-warning">NEW</span></h4>
+                         <p>Lorem ipsum dolor sit amet, vix erat audiam ei. Cum doctus civibus efficiantur in. Nec id tempor imperdiet deterruisset, doctus volumus explicari qui ex.</p>
+                         <ul class="data-lessons">
+                              <li class="po-markup">
+                                    <a class="po-link" href="javascript:void(0)" ><i class="icon-clock"></i>Duration: 6 hours</a>
+                                    <div class="po-content hidden">
+                                        <div class="po-title"><strong>Duration: 6 hours</strong></div> <!-- ./po-title -->
+                                        <div class="po-body">
+                                            <p class="no_margin">Lorem ipsum dolor sit amet, has at illum dictas definitiones, ei primis indoctum torquatos nec. Vis te velit probatus, natum atomorum tincidunt nec an.</p>
+                                        </div><!-- ./po-body -->
+                                    </div><!-- ./po-content -->
+                                    </li>
+                                    <li class="po-markup">
+                                    <a class="po-link" href="javascript:void(0)" ><i class="icon-video"></i>Video files</a>
+                                    <div class="po-content hidden">
+                                        <div class="po-title"><strong>Video files</strong></div> <!-- ./po-title -->
+                                        <div class="po-body"><ul class="list_po_body"><li><i class="icon-ok"></i> 2 Video lessons</li><li> <i class="icon-ok"></i>1 Video for practice</li><li> <i class="icon-ok"></i>1 Video Quiz</li></ul>
+                                        </div><!-- ./po-body -->
+                                    </div><!-- ./po-content -->
+                                    </li>
+                                    <li class="po-markup">
+                                    <a class="po-link" href="javascript:void(0)" ><i class="icon-mic"></i>Audio files</a>
+                                    <div class="po-content hidden">
+                                        <div class="po-title"><strong>Audio files</strong></div> <!-- ./po-title -->
+                                        <div class="po-body">
+                                            <p class="no_margin">Lorem ipsum dolor sit amet, has at illum dictas definitiones, ei primis indoctum torquatos nec. Vis te velit probatus, natum atomorum tincidunt nec an.</p>
+                                        </div><!-- ./po-body -->
+                                    </div><!-- ./po-content -->
+                                    </li>
+                          </ul>
+                      </div>
+                    </div>
+                    
+                <div class="media">
+                   <div class="circ-wrapper blue pull-left"><h3>Анхан<br>160</h3></div>
+                      <div class="media-body">
+                        <h4 class="media-heading"><a href="javascript:void(0)">Анхан түвшний 160 ханз</a> <span class="label label-warning">NEW</span></h4>
+                         <p>Lorem ipsum dolor sit amet, vix erat audiam ei. Cum doctus civibus efficiantur in. Nec id tempor imperdiet deterruisset, doctus volumus explicari qui ex.</p> 
+                         <ul class="data-lessons">
+                              <li class="po-markup">
+                                    <a class="po-link" href="javascript:void(0)" ><i class="icon-clock"></i>Duration: 6 hours</a>
+                                    <div class="po-content hidden">
+                                        <div class="po-title"><strong>Duration: 6 hours</strong></div> <!-- ./po-title -->
+                                        <div class="po-body">
+                                            <p class="no_margin">Lorem ipsum dolor sit amet, has at illum dictas definitiones, ei primis indoctum torquatos nec. Vis te velit probatus, natum atomorum tincidunt nec an.</p>
+                                        </div><!-- ./po-body -->
+                                    </div><!-- ./po-content -->
+                                    </li>
+                                    <li class="po-markup">
+                                    <a class="po-link" href="javascript:void(0)" ><i class="icon-video"></i>Video files</a>
+                                    <div class="po-content hidden">
+                                        <div class="po-title"><strong>Video files</strong></div> <!-- ./po-title -->
+                                        <div class="po-body"><ul class="list_po_body"><li><i class="icon-ok"></i> 2 Video lessons</li><li> <i class="icon-ok"></i>1 Video for practice</li><li> <i class="icon-ok"></i>1 Video Quiz</li></ul>
+                                        </div><!-- ./po-body -->
+                                    </div><!-- ./po-content -->
+                                    </li>
+                                    <li class="po-markup">
+                                    <a class="po-link" href="javascript:void(0)" ><i class="icon-doc-text-inv"></i>Text doc</a>
+                                    <div class="po-content hidden">
+                                        <div class="po-title"><strong>Text doc</strong></div> <!-- ./po-title -->
+                                        <div class="po-body">
+                                            <p class="no_margin">Lorem ipsum dolor sit amet, has at illum dictas definitiones, ei primis indoctum torquatos nec. Vis te velit probatus, natum atomorum tincidunt nec an.</p>
+                                        </div><!-- ./po-body -->
+                                    </div><!-- ./po-content -->
+                                    </li>
+                          </ul>
+                      </div>
+                    </div>
+                 
+                 <div class="media">
+                   <div class="circ-wrapper blue pull-left"><h3>Анхан<br>200</h3></div>
+                      <div class="media-body">
+                        <h4 class="media-heading"><a href="javascript:void(0)">Анхан түвшний 200 ханз</a> <span class="label label-warning">NEW</span></h4>
+                         <p>Lorem ipsum dolor sit amet, vix erat audiam ei. Cum doctus civibus efficiantur in. Nec id tempor imperdiet deterruisset, doctus volumus explicari qui ex.</p> 
+                         <ul class="data-lessons">
+                              <li class="po-markup">
+                                    <a class="po-link" href="javascript:void(0)" ><i class="icon-clock"></i>Duration: 6 hours</a>
+                                    <div class="po-content hidden">
+                                        <div class="po-title"><strong>Duration: 6 hours</strong></div> <!-- ./po-title -->
+                                        <div class="po-body">
+                                            <p class="no_margin">Lorem ipsum dolor sit amet, has at illum dictas definitiones, ei primis indoctum torquatos nec. Vis te velit probatus, natum atomorum tincidunt nec an.</p>
+                                        </div><!-- ./po-body -->
+                                    </div><!-- ./po-content -->
+                                    </li>
+                                    <li class="po-markup">
+                                    <a class="po-link" href="javascript:void(0)" ><i class="icon-video"></i>Video files</a>
+                                    <div class="po-content hidden">
+                                        <div class="po-title"><strong>Video files</strong></div> <!-- ./po-title -->
+                                        <div class="po-body"><ul class="list_po_body"><li><i class="icon-ok"></i> 2 Video lessons</li><li> <i class="icon-ok"></i>1 Video for practice</li><li> <i class="icon-ok"></i>1 Video Quiz</li></ul>
+                                        </div><!-- ./po-body -->
+                                    </div><!-- ./po-content -->
+                                    </li>
+                                    <li class="po-markup">
+                                    <a class="po-link" href="javascript:void(0)" ><i class="icon-doc-text-inv"></i>Text doc</a>
+                                    <div class="po-content hidden">
+                                        <div class="po-title"><strong>Text doc</strong></div> <!-- ./po-title -->
+                                        <div class="po-body">
+                                            <p class="no_margin">Lorem ipsum dolor sit amet, has at illum dictas definitiones, ei primis indoctum torquatos nec. Vis te velit probatus, natum atomorum tincidunt nec an.</p>
+                                        </div><!-- ./po-body -->
+                                    </div><!-- ./po-content -->
+                                    </li>
+                          </ul>
+                      </div>
+                    </div>
+            </div><!-- ehnii egnee duusaj bgaa -->
+        
+        <div class="col-md-4"><!-- 2dahi egnee ehlej bgaa -->
+            <div class="media">
+                   <div class="circ-wrapper orange pull-left"><h3>Дунд<br>200</h3></div>
+                      <div class="media-body">
+                      	<h4 class="media-heading"><a href="javascript:void(0)">Дунд түвшний 200 ханз</a></h4>
+                         <p>Lorem ipsum dolor sit amet, vix erat audiam ei. Cum doctus civibus efficiantur in. Nec id tempor imperdiet deterruisset, doctus volumus explicari qui ex.</p>
+                         <ul class="data-lessons">
+                              <li class="po-markup">
+                                    <a class="po-link" href="javascript:void(0)" ><i class="icon-clock"></i>Duration: 6 hours</a>
+                                    <div class="po-content hidden">
+                                        <div class="po-title"><strong>Duration: 6 hours</strong></div> <!-- ./po-title -->
+                                        <div class="po-body">
+                                            <p class="no_margin">Lorem ipsum dolor sit amet, has at illum dictas definitiones, ei primis indoctum torquatos nec. Vis te velit probatus, natum atomorum tincidunt nec an.</p>
+                                        </div><!-- ./po-body -->
+                                    </div><!-- ./po-content -->
+                                    </li>
+                                    <li class="po-markup">
+                                    <a class="po-link" href="javascript:void(0)" ><i class="icon-video"></i>Video files</a>
+                                    <div class="po-content hidden">
+                                        <div class="po-title"><strong>Video files</strong></div> <!-- ./po-title -->
+                                        <div class="po-body"><ul class="list_po_body"><li><i class="icon-ok"></i> 2 Video lessons</li><li> <i class="icon-ok"></i>1 Video for practice</li><li> <i class="icon-ok"></i>1 Video Quiz</li></ul>
+                                        </div><!-- ./po-body -->
+                                    </div><!-- ./po-content -->
+                                    </li>
+                                    <li class="po-markup">
+                                    <a class="po-link" href="javascript:void(0)" ><i class="icon-mic"></i>Audio files</a>
+                                    <div class="po-content hidden">
+                                        <div class="po-title"><strong>Audio files</strong></div> <!-- ./po-title -->
+                                        <div class="po-body">
+                                            <p class="no_margin">Lorem ipsum dolor sit amet, has at illum dictas definitiones, ei primis indoctum torquatos nec. Vis te velit probatus, natum atomorum tincidunt nec an.</p>
+                                        </div><!-- ./po-body -->
+                                    </div><!-- ./po-content -->
+                                    </li>
+                          </ul>
+                      </div>
+                    </div>
+                    
+                 <div class="media">
+                   <div class="circ-wrapper orange pull-left"><h3>Дунд<br>185</h3></div>
+                      <div class="media-body">
+                      	<h4 class="media-heading"><a href="javascript:void(0)">Дунд түвшний 185 ханз</a></h4>
+                         <p>Lorem ipsum dolor sit amet, vix erat audiam ei. Cum doctus civibus efficiantur in. Nec id tempor imperdiet deterruisset, doctus volumus explicari qui ex.</p>
+                         <ul class="data-lessons">
+                              <li class="po-markup">
+                                    <a class="po-link" href="javascript:void(0)" ><i class="icon-clock"></i>Duration: 6 hours</a>
+                                    <div class="po-content hidden">
+                                        <div class="po-title"><strong>Duration: 6 hours</strong></div> <!-- ./po-title -->
+                                        <div class="po-body">
+                                            <p class="no_margin">Lorem ipsum dolor sit amet, has at illum dictas definitiones, ei primis indoctum torquatos nec. Vis te velit probatus, natum atomorum tincidunt nec an.</p>
+                                        </div><!-- ./po-body -->
+                                    </div><!-- ./po-content -->
+                                    </li>
+                                    <li class="po-markup">
+                                    <a class="po-link" href="javascript:void(0)" ><i class="icon-video"></i>Video files</a>
+                                    <div class="po-content hidden">
+                                        <div class="po-title"><strong>Video files</strong></div> <!-- ./po-title -->
+                                        <div class="po-body"><ul class="list_po_body"><li><i class="icon-ok"></i> 2 Video lessons</li><li> <i class="icon-ok"></i>1 Video for practice</li><li> <i class="icon-ok"></i>1 Video Quiz</li></ul>
+                                        </div><!-- ./po-body -->
+                                    </div><!-- ./po-content -->
+                                    </li>
+                                    <li class="po-markup">
+                                    <a class="po-link" href="javascript:void(0)" ><i class="icon-mic"></i>Audio files</a>
+                                    <div class="po-content hidden">
+                                        <div class="po-title"><strong>Audio files</strong></div> <!-- ./po-title -->
+                                        <div class="po-body">
+                                            <p class="no_margin">Lorem ipsum dolor sit amet, has at illum dictas definitiones, ei primis indoctum torquatos nec. Vis te velit probatus, natum atomorum tincidunt nec an.</p>
+                                        </div><!-- ./po-body -->
+                                    </div><!-- ./po-content -->
+                                    </li>
+                          </ul>
+                      </div>
+                    </div>
+                 
+                 <div class="media">
+                   <div class="circ-wrapper orange pull-left"><h3>Дунд<br>181</h3></div>
+                      <div class="media-body" >
+                        <h4 class="media-heading"><a href="javascript:void(0)">Дунд түвшний 181 ханз</a></h4>
+                         <p>Lorem ipsum dolor sit amet, vix erat audiam ei. Cum doctus civibus efficiantur in. Nec id tempor imperdiet deterruisset, doctus volumus explicari qui ex.</p>
+                         <ul class="data-lessons">
+                              <li class="po-markup">
+                                    <a class="po-link" href="javascript:void(0)" ><i class="icon-clock"></i>Duration: 6 hours</a>
+                                    <div class="po-content hidden">
+                                        <div class="po-title"><strong>Duration: 6 hours</strong></div> <!-- ./po-title -->
+                                        <div class="po-body">
+                                            <p class="no_margin">Lorem ipsum dolor sit amet, has at illum dictas definitiones, ei primis indoctum torquatos nec. Vis te velit probatus, natum atomorum tincidunt nec an.</p>
+                                        </div><!-- ./po-body -->
+                                    </div><!-- ./po-content -->
+                                    </li>
+                                    <li class="po-markup">
+                                    <a class="po-link" href="javascript:void(0)" ><i class="icon-video"></i>Video files</a>
+                                    <div class="po-content hidden">
+                                        <div class="po-title"><strong>Video files</strong></div> <!-- ./po-title -->
+                                        <div class="po-body"><ul class="list_po_body"><li><i class="icon-ok"></i> 2 Video lessons</li><li> <i class="icon-ok"></i>1 Video for practice</li><li> <i class="icon-ok"></i>1 Video Quiz</li></ul>
+                                        </div><!-- ./po-body -->
+                                    </div><!-- ./po-content -->
+                                    </li>
+                                    <li class="po-markup">
+                                    <a class="po-link" href="javascript:void(0)" ><i class="icon-doc-text-inv"></i>Text doc</a>
+                                    <div class="po-content hidden">
+                                        <div class="po-title"><strong>Text doc</strong></div> <!-- ./po-title -->
+                                        <div class="po-body">
+                                            <p class="no_margin">Lorem ipsum dolor sit amet, has at illum dictas definitiones, ei primis indoctum torquatos nec. Vis te velit probatus, natum atomorum tincidunt nec an.</p>
+                                        </div><!-- ./po-body -->
+                                    </div><!-- ./po-content -->
+                                    </li>
+                          </ul> 
+                      </div>
+                    </div>
+            	  </div><!-- 2dahi egnee duusak bgaa -->
+
+        <div class="col-md-4"><!-- 3dahi egnee ehlej bgaa -->
+            <div class="media">
+                   <div class="circ-wrapper red pull-left"><h3>Дээд<br>360</h3></div>
+                      <div class="media-body">
+                      	<h4 class="media-heading"><a href="javascript:void(0)">Дээд түвшний 360 ханз</a></h4>
+                         <p>Lorem ipsum dolor sit amet, vix erat audiam ei. Cum doctus civibus efficiantur in. Nec id tempor imperdiet deterruisset, doctus volumus explicari qui ex.</p>
+                         <ul class="data-lessons">
+                              <li class="po-markup">
+                                    <a class="po-link" href="javascript:void(0)" ><i class="icon-clock"></i>Duration: 6 hours</a>
+                                    <div class="po-content hidden">
+                                        <div class="po-title"><strong>Duration: 6 hours</strong></div> <!-- ./po-title -->
+                                        <div class="po-body">
+                                            <p class="no_margin">Lorem ipsum dolor sit amet, has at illum dictas definitiones, ei primis indoctum torquatos nec. Vis te velit probatus, natum atomorum tincidunt nec an.</p>
+                                        </div><!-- ./po-body -->
+                                    </div><!-- ./po-content -->
+                                    </li>
+                                    <li class="po-markup">
+                                    <a class="po-link" href="javascript:void(0)" ><i class="icon-video"></i>Video files</a>
+                                    <div class="po-content hidden">
+                                        <div class="po-title"><strong>Video files</strong></div> <!-- ./po-title -->
+                                        <div class="po-body"><ul class="list_po_body"><li><i class="icon-ok"></i> 2 Video lessons</li><li> <i class="icon-ok"></i>1 Video for practice</li><li> <i class="icon-ok"></i>1 Video Quiz</li></ul>
+                                        </div><!-- ./po-body -->
+                                    </div><!-- ./po-content -->
+                                    </li>
+                                    <li class="po-markup">
+                                    <a class="po-link" href="javascript:void(0)" ><i class="icon-mic"></i>Audio files</a>
+                                    <div class="po-content hidden">
+                                        <div class="po-title"><strong>Audio files</strong></div> <!-- ./po-title -->
+                                        <div class="po-body">
+                                            <p class="no_margin">Lorem ipsum dolor sit amet, has at illum dictas definitiones, ei primis indoctum torquatos nec. Vis te velit probatus, natum atomorum tincidunt nec an.</p>
+                                        </div><!-- ./po-body -->
+                                    </div><!-- ./po-content -->
+                                    </li>
+                          </ul>
+                      </div>
+                    </div>
+                    
+                <div class="media">
+                   <div class="circ-wrapper red pull-left"><h3>Дээд<br>380</h3></div>
+                      <div class="media-body" >
+                        <h4 class="media-heading"><a href="javascript:void(0)">Дээд түвшний 380 ханз</a></h4>
+                         <p>Lorem ipsum dolor sit amet, vix erat audiam ei. Cum doctus civibus efficiantur in. Nec id tempor imperdiet deterruisset, doctus volumus explicari qui ex.</p>
+                         <ul class="data-lessons">
+                              <li class="po-markup">
+                                    <a class="po-link" href="javascript:void(0)" ><i class="icon-clock"></i>Duration: 6 hours</a>
+                                    <div class="po-content hidden">
+                                        <div class="po-title"><strong>Duration: 6 hours</strong></div> <!-- ./po-title -->
+                                        <div class="po-body">
+                                            <p class="no_margin">Lorem ipsum dolor sit amet, has at illum dictas definitiones, ei primis indoctum torquatos nec. Vis te velit probatus, natum atomorum tincidunt nec an.</p>
+                                        </div><!-- ./po-body -->
+                                    </div><!-- ./po-content -->
+                                    </li>
+                                    <li class="po-markup">
+                                    <a class="po-link" href="javascript:void(0)" ><i class="icon-video"></i>Video files</a>
+                                    <div class="po-content hidden">
+                                        <div class="po-title"><strong>Video files</strong></div> <!-- ./po-title -->
+                                        <div class="po-body"><ul class="list_po_body"><li><i class="icon-ok"></i> 2 Video lessons</li><li> <i class="icon-ok"></i>1 Video for practice</li><li> <i class="icon-ok"></i>1 Video Quiz</li></ul>
+                                        </div><!-- ./po-body -->
+                                    </div><!-- ./po-content -->
+                                    </li>
+                                    <li class="po-markup">
+                                    <a class="po-link" href="javascript:void(0)" ><i class="icon-doc-text-inv"></i>Text doc</a>
+                                    <div class="po-content hidden">
+                                        <div class="po-title"><strong>Text doc</strong></div> <!-- ./po-title -->
+                                        <div class="po-body">
+                                            <p class="no_margin">Lorem ipsum dolor sit amet, has at illum dictas definitiones, ei primis indoctum torquatos nec. Vis te velit probatus, natum atomorum tincidunt nec an.</p>
+                                        </div><!-- ./po-body -->
+                                    </div><!-- ./po-content -->
+                                    </li>
+                          </ul> 
+                      </div>
+                    </div>
+                  
+                <div class="media">
+                   <div class="circ-wrapper red pull-left"><h3>Дээд<br>390</h3></div>
+                      <div class="media-body" >
+                        <h4 class="media-heading"><a href="javascript:void(0)">Дээд түвшний 380 ханз</a></h4>
+                         <p>Lorem ipsum dolor sit amet, vix erat audiam ei. Cum doctus civibus efficiantur in. Nec id tempor imperdiet deterruisset, doctus volumus explicari qui ex.</p>
+                         <ul class="data-lessons">
+                              <li class="po-markup">
+                                    <a class="po-link" href="javascript:void(0)" ><i class="icon-clock"></i>Duration: 6 hours</a>
+                                    <div class="po-content hidden">
+                                        <div class="po-title"><strong>Duration: 6 hours</strong></div> <!-- ./po-title -->
+                                        <div class="po-body">
+                                            <p class="no_margin">Lorem ipsum dolor sit amet, has at illum dictas definitiones, ei primis indoctum torquatos nec. Vis te velit probatus, natum atomorum tincidunt nec an.</p>
+                                        </div><!-- ./po-body -->
+                                    </div><!-- ./po-content -->
+                                    </li>
+                                    <li class="po-markup">
+                                    <a class="po-link" href="javascript:void(0)" ><i class="icon-video"></i>Video files</a>
+                                    <div class="po-content hidden">
+                                        <div class="po-title"><strong>Video files</strong></div> <!-- ./po-title -->
+                                        <div class="po-body"><ul class="list_po_body"><li><i class="icon-ok"></i> 2 Video lessons</li><li> <i class="icon-ok"></i>1 Video for practice</li><li> <i class="icon-ok"></i>1 Video Quiz</li></ul>
+                                        </div><!-- ./po-body -->
+                                    </div><!-- ./po-content -->
+                                    </li>
+                                    <li class="po-markup">
+                                    <a class="po-link" href="javascript:void(0)" ><i class="icon-doc-text-inv"></i>Text doc</a>
+                                    <div class="po-content hidden">
+                                        <div class="po-title"><strong>Text doc</strong></div> <!-- ./po-title -->
+                                        <div class="po-body">
+                                            <p class="no_margin">Lorem ipsum dolor sit amet, has at illum dictas definitiones, ei primis indoctum torquatos nec. Vis te velit probatus, natum atomorum tincidunt nec an.</p>
+                                        </div><!-- ./po-body -->
+                                    </div><!-- ./po-content -->
+                                    </li>
+                          </ul> 
+                      </div>
+                    </div>
+            	  </div>
+             </div>
+         </div><!-- 3dahi egnee duusaj bgaa -->
+       	
+       	<div class="container">
+        	<div class="row">
+            
+        </div><!-- End row -->
+        
+        <!-- End row -->
+        <div class="row">
+        	<div class="col-md-12">
+        	     <a href="courses_grid.html" class="button_medium_outline pull-right">Бүх хичээлүүд</a>
+            </div>
+        </div>
+         </div>   <!-- End container -->
+       	
+       	<hr><!--  Latest Courses ehlej bgaa -->
+
+    <section id="main_content_gray">
+    
+    <section id="testimonials">
+        <div class="container">
+            <div class="row">
+                <div class='col-md-offset-2 col-md-8 text-center'>
+                    <h2>ТОМ ХАНЗ</h2>
+                </div>
+            </div>
+            <div class='row'>
+                <div class='col-md-offset-2 col-md-8'>
+                    <div class="carousel slide" data-ride="carousel" id="quote-carousel">
+                        <!-- Bottom Carousel Indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#quote-carousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#quote-carousel" data-slide-to="1"></li>
+                            <li data-target="#quote-carousel" data-slide-to="2"></li>
+                        </ol>
+                        <!-- Carousel Slides / Quotes -->
+                        <div class="carousel-inner">
+                            <!-- Quote 1 -->
+                            <div class="item active">
+                                <blockquote>
+                                    <div class="row">
+                                        <div class="col-sm-3 text-center">
+                                            <img class="img-circle" src="img/testimonial_1.jpg" alt="">
+                                        </div>
+                                        <div class="col-sm-9">
+                                            <p>
+                                                “Маргааш үхэх мэт амьдар. Харин хэзээ ч үхэхгүй мэт сур” 
+                                            </p>
+                                            <small></small>
+                                        </div>
+                                    </div>
+                                </blockquote>
+                            </div>
+                            <!-- Quote 2 -->
+                            <div class="item">
+                                <blockquote>
+                                    <div class="row">
+                                        <div class="col-sm-3 text-center">
+                                            <img class="img-circle" src="img/testimonial_2.jpg" alt="">
+                                        </div>
+                                        <div class="col-sm-9">
+                                            <p>
+                                                “Хэрвээ та нисэж чадахгүй бол гүй, гүйж чадахгүй бол алх, алхаж чадахгүй бол мөлх. Ямар ч тохиолдолд та үргэлж урагшлах хэрэгтэй” 
+                                            </p>
+                                            <small>Someone famous</small>
+                                        </div>
+                                    </div>
+                                </blockquote>
+                            </div>
+                            <!-- Quote 3 -->
+                            <div class="item">
+                                <blockquote>
+                                    <div class="row">
+                                        <div class="col-sm-3 text-center">
+                                            <img class="img-circle" src="img/testimonial_1.jpg" alt="">
+                                        </div>
+                                        <div class="col-sm-9">
+                                            <p>
+                                                “Өндгийг дарж байж л дэгдээхэй болгодгийн адил бүх юманд тэвчээр хэрэгтэй”
+                                            </p>
+                                            <small>Someone famous</small>
+                                        </div>
+                                    </div>
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       </section><!-- End testimonials -->
+
+<footer>
+<div class="container">
+	<div class="row">
+		<div class="col-md-8 col-md-offset-2">
+			<h3>Сүүлд нэмэгдсэн мэдээлэлийг И-мэйлээр авах.</h3>
+			<div id="message-newsletter"></div>
+			<form method="post" action="assets/newsletter.php" name="newsletter" id="newsletter" class="form-inline">
+				<input name="email_newsletter" id="email_newsletter" type="email" value="" placeholder="И-мэйл" class="form-control">
+				<button id="submit-newsletter" class=" button_outline"> Бүртгүүлэх</button>
+			</form>
+		</div>
+	</div>
+</div>
+
+<hr>
+
+<div class="container" id="nav-footer">
+	
+	</div><!-- End row -->
+</div>
+<div id="copy_right">2017</div>
+</footer>
+
+<div id="toTop">Дээшээ</div>
+
+<!-- JQUERY -->
+<script src="js/jquery-1.10.2.min.js"></script>
+<!-- jQuery REVOLUTION Slider  -->
+<script type="text/javascript" src="rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
+<script type="text/javascript" src="rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+<script type="text/javascript">
+
+		var revapi;
+
+		jQuery(document).ready(function() {
+
+			   revapi = jQuery('.tp-banner').revolution(
+				{
+					delay:9000,
+					startwidth:1700,
+					startheight:600,
+					hideThumbs:true,
+					navigationType:"none",
+					fullWidth:"on",
+					forceFullWidth:"on"
+				});
+
+		});	//ready
+
+	</script>
+
+<!-- OTHER JS --> 
+<script src="js/superfish.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/retina.min.js"></script>
+<script src="assets/validate.js"></script>
+<script src="js/jquery.placeholder.js"></script>
+<script src="js/functions.js"></script>
+<script src="js/classie.js"></script>
+<script src="js/uisearch.js"></script>
+<script>new UISearch( document.getElementById( 'sb-search' ) );</script>
+
+
+  </body>
+</html>
