@@ -2240,7 +2240,11 @@ ul.sliderwrapper { display:none}
 	background:url(../images/icon_back01.png) no-repeat 5px center;
 }
 #main div.inner{
-	padding:30px 19px 200px 19px;
+	padding:10px 19px 200px 19px;
+}
+#main div#itemArea {
+	justify-content:space-between;
+	display: flex;
 }
 #main div#itemArea div.kanji_hd{
 	vertical-align:top;
@@ -2250,8 +2254,8 @@ ul.sliderwrapper { display:none}
 #main div#itemArea div.kanji_hd div#kanji_image{
 	border:#d8d8d8 5px solid;
     border-radius: 10px;
-    -webkit-border-radius: 10px;    /* Safari,Google Chrome */  
-    -moz-border-radius: 10px;   /* Firefox */
+    -webkit-border-radius: 0px;    /* Safari,Google Chrome */  
+    -moz-border-radius: 0px;   /* Firefox */
 	width:215px;
 	height:215px;
 }
@@ -2271,8 +2275,8 @@ ul.sliderwrapper { display:none}
 	background:#00aeef;
 	border:#00aeef 5px solid;
     border-radius: 3px;
-    -webkit-border-radius: 3px;    /* Safari,Google Chrome */  
-    -moz-border-radius: 3px;   /* Firefox */
+    -webkit-border-radius: 0px;    /* Safari,Google Chrome */  
+    -moz-border-radius: 0px;   /* Firefox */
 	color:#FFF;
 	font-size:16px;
     max-width: 215px;
@@ -2298,7 +2302,7 @@ ul.sliderwrapper { display:none}
 }
 #main div#itemArea .movie {
     position: relative;
-    width: 290px;
+    width: 390px;
     height: 220px;
     overflow: hidden;
 }
@@ -2341,7 +2345,7 @@ ul.sliderwrapper { display:none}
 	background:#ffcc00;
 	font-size:14px;
 	color:#fff;
-	margin:0 0 0 0;
+	margin:35px 0 0 0;
 	padding:4px 15px;
 }
 #main div#ex div.section ul li{
@@ -2444,17 +2448,18 @@ a{text-decoration:none;}
 #main #kanjiList{
 	background:#00aeef;
 	padding:6px 0px 70px 6px;
+	margin:35px 0 35px 0px;
 }
 #main #kanjiList h3{
 	color:#FFF;
-	padding:10px 15px;
-	margin:0 0 0 0;
+	padding:0px 10px;
+	margin:0 0 0 15px;
     border-radius: 3px;        
     font-size:20px;
 	text-align:center;
 	float:left;
 }
-#main #kanjiList h3{ background-color: #1961c3; }
+#main #kanjiList h3{ background-color: #00aeef; }
 #main #kanjiList h3 span{
 	display:block;
 	font-size:12px;
@@ -2466,13 +2471,13 @@ a{text-decoration:none;}
 }
 #main #kanjiList ul li{
 	display:inline-block;
-    padding:9px 7px 0px 4px;
+    padding:9px 7px 0px 5px;
     font-family:"Kyoukasho ICA Regular";
 }
 #main #kanjiList ul li a{
 	background:#FFF;
     border-radius: 3px;
-    color:#ed5638;
+    color:#0c37e0;
 	font-size:30px;
 	padding:15px 20px;
 	text-align:center;
